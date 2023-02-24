@@ -1,0 +1,148 @@
+@font-face {
+    font-family:'Chellion';
+    src: url("/fonts/Molde-SemiCondensed-Medium.ttf");
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chellion';
+    
+}
+body{
+    background-color: black;
+}
+
+.outer{
+    
+
+    background-image: url("/images/background-image.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    height: 900px;
+    margin-top:60px;
+    margin-bottom: 40px;
+    background-size: cover;
+    
+}
+img{
+    max-width: 100%;
+}
+.icon{
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    position: absolute;
+    top:100px;
+}
+i{
+    font-size: 35px;
+    color: white;
+    padding: 20px 15px;
+}
+.menuitem{
+    background-color: black;
+    position: absolute;
+    border-radius: 40px;
+    top:180px;
+    left: -310px;
+    transition: left 2s;
+    transition-timing-function: ease-out;
+
+}
+.icon:hover~.menuitem{
+    left: -40px;
+}
+.icon:hover{
+    cursor: pointer;
+}
+.icon:hover i{
+    color:black;
+}
+ul{
+    list-style: none;
+    padding: 40px 70px 10px 110px;
+    color: white;
+}
+li{
+    text-align: center;
+    padding-bottom:21px;
+    font-size: 21px;
+    font-weight: 100;
+}
+
+.title{
+    color: white;
+    position:absolute;
+    top: 115px;
+    right:660px;
+    font-size: 70px;
+    text-align: center;
+
+}
+
+.subtitle{
+    color: white;
+    position:absolute;
+    top: 650px;
+    right: 500px;
+    font-size: 125px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 10px;
+
+}
+span{
+    color: white;
+    position:absolute;
+    top: 760px;
+    right:500px;
+    font-size: 165px;
+    font-weight: 800;
+    letter-spacing: 10px;
+
+}
+.content{
+    color: white;
+    position:absolute;
+    top: 400px;
+    right:10px;
+    rotate: -90deg;
+    font-size: 43px;
+    font-weight: 900;
+
+}
+.year{
+    color: white;
+    position:absolute;
+    top: 160px;
+    right:-50px;
+    rotate:-90deg;
+    font-size: 120px;
+    letter-spacing: 8px;
+}
+
+i{
+    color: white;
+    font-size: 40px;
+}
+.twitter {
+    position: absolute;
+    top:880px;
+    right: 70px;
+}
+.facebook{
+    position: absolute;
+    top:880px;
+    right: 10px;
+
+}
+.twitter:hover i{
+    cursor: pointer;
+    color: black;
+}
+.facebook:hover i{
+    cursor: pointer;
+    color: black;
+}
