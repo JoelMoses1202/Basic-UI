@@ -1,0 +1,76 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    background-color: #145f94;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 30px;
+    margin-bottom: 30px;
+    color: rgb(255,255,255);
+}
+.container{
+    padding: 0px 130px 40px ;
+}
+.left-container{
+    float:left;
+    width: 59%;
+} 
+.right-container{
+    float: right;
+    width: 39.5%;    
+}
+.clearFloat{
+    clear: both;
+}
+.card{
+    border-style: solid;
+    border-color: #145f94;
+    margin-bottom: 20px;
+    border-width: 1px;
+}
+.card h2{
+    background-color: #145f94;
+    padding: 15px 0px 15px 25px;
+    color: rgb(255,255,255);
+    font-weight: 500;
+    font-size: 20px;
+}
+.left-container .card p{
+    padding: 3%;
+    line-height: 2;
+    text-align: justify;
+    color: rgb(17,17,17);
+    line-height: 1.4;
+    font-size: 17px;
+    font-weight: 400;
+    color:rgb(67, 67, 67);
+    background-color: rgb(246, 246, 246);
+}
+.right-container .card p{
+    padding: 5%;
+    line-height: 2;
+    text-align: justify;
+    color: rgb(17,17,17);
+    line-height: 1.4;
+    font-size: 17px;
+    font-weight: 400;
+    color:rgb(67, 67, 67);
+    background-color: rgb(246, 246, 246);
+}
+@media screen and (max-width: 700px){
+    .left-container{
+        width: 100%;
+    }
+    .right-container{
+        width:100%;
+    }
+    .container{
+        padding: 0px 20px;
+    }
+  }
+
