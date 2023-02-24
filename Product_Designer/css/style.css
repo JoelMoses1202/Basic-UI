@@ -1,0 +1,181 @@
+/* Univeral css */
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: content-box;
+}
+/* Image css */
+img{
+    max-width: 100%;
+}
+/* Icon */
+i{
+    color: white;
+}
+/* Outer Container */
+.container{
+    background-color: black;
+    width: 75%;
+    margin: auto;
+}
+/* Email */
+.email h4{
+    text-align: right;
+    padding: 80px 0px;;
+    color: white;
+    font-size:25px;
+}
+/* Title */
+.title{
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.title h1{
+    text-align: center;
+    color:white;
+    font-size: 145px;
+    font-weight: 300;
+}
+.title h1 span{
+    font-weight: 500;
+}
+/* Subtitle */
+.sub-title{
+    color: rgb(111, 95, 95);
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 150px;
+}
+.sub-title span{
+    color:rgb(91,141,218)
+}
+/* Photo Container */
+.photo-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.photo-card{
+    width: 400px;
+    height: 390px;
+    align-content: center;
+}
+/* Content */
+.content{
+    color: rgb(207,207,207);
+    text-align: center;
+    font-size: 30px;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+.content span{
+    color: rgb(134, 232, 145);
+}
+/* Icon Container */
+.icon-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 325px;
+}
+.icon-card{
+    width: 9%;
+}
+/* Underline */
+.under-line{
+    color: white;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.under-line span{
+    padding-left:40px ;
+}
+/* Logo Container */
+.logo-container{
+    width: 30%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.logo-card{
+    font-size: 40px;
+}
+/* Footer */
+footer h4{
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    padding-bottom: 160px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 474px) {
+    .email h4{
+        position:relative;
+        bottom: -390px;
+        padding: 0px;
+        text-align: center;
+        font-size: 17px;
+    }
+    .title{
+        padding-top: 230px;
+    }
+    .title h1{
+        font-size: 55px;
+    }
+    .sub-title{
+        font-size: 23px;
+    }
+    .container{
+        width: 90%;
+        align-content: center;
+    }
+    .icon-container{
+        justify-content: space-between;
+        margin-bottom: 140px;
+    }
+    .icon-card{
+        width:120px;
+        padding: 40px 20px;
+    }
+    .content{
+        padding-top:50px;
+        font-size: 20px;
+    }
+    .photo-card{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .underline{
+        font-size: 13px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .underline span{
+        padding-left:26px ;
+    }
+    .logo-container{
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        padding-bottom: 80px;
+    }
+    .logo-card{
+        font-size: 40px;
+    }
+}
