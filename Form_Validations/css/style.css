@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+}
+
+img {
+  max-width: 100%;
+}
+.name {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.error {
+  display: block;
+  height: 12px;
+  color: red;
+}
+.lab {
+  margin-top: 30px;
+}
+
+.logo {
+  text-align: center;
+}
+.logo img {
+  margin-top: -40px;
+  align-content: center;
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
+}
+.container {
+  margin: auto;
+  width: 35%;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  padding: 20px;
+  margin-top: -40px;
+}
+
+input {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0px;
+  border-radius: 5px;
+  border-width: 1px;
+  outline: none;
+}
+
+#first-name,
+#last-name,
+#cvv,
+#card-expiry {
+  width: 270px;
+}
+.start {
+  margin-top: 10px;
+}
+
+.break {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.break,
+.start {
+  font-size: 19px;
+  color: rgb(7, 27, 109);
+  font-weight: 500;
+}
+
+.btn {
+  margin-top: 30px;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: white;
+  background-color: rgb(7, 27, 109);
+  border-style: none;
+  border-radius: 5px;
+}
+span {
+  color: red;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
