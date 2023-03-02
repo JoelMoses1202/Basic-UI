@@ -9,7 +9,7 @@ function validate() {
   let cvv = document.querySelector("#cvv");
   let flag = 0;
   let regname = "[a-zA-Z]";
-  let regemail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  let regemail = /^[A-z]+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
   let regContact = /^\d{10}$/;
   let regPin = /^\d{6}$/;
   let regCard = /^\d{16}$/;
