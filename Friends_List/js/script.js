@@ -1,8 +1,7 @@
 //Acess Outer Container
 const container = document.querySelector(".container");
 const main_fragment = document.createDocumentFragment();
-const sub_fragment = document.createDocumentFragment();
-const desc_fragment = document.createDocumentFragment();
+
 
 friend.forEach((element) => {
   //Create Inner Container
@@ -29,12 +28,10 @@ friend.forEach((element) => {
   //Changing source for image tag
   img.src = element.img;
   picture.append(img);
-  sub_fragment.append(picture);
-  desc_fragment.append(full_name);
-  desc_fragment.append(email);
-  desc.append(desc_fragment);
-  sub_fragment.append(desc);
-  inner_container.append(sub_fragment);
+  inner_container.append(picture);
+  desc.append(full_name);
+  desc.append(email);
+  inner_container.append(desc);
   main_fragment.append(inner_container);
 });
 container.append(main_fragment);
