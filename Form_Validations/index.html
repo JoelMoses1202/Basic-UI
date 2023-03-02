@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="Assignment 14" />
+    <meta name="keywords" content="HTML, CSS,JS" />
+    <meta name="author" content="Joel" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0/" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Assignment 14</title>
+  </head>
+
+  <body>
+    <div class="logo">
+      <img src="images/Sirius_CDW_Cobranded_PMS2747.svg" alt="" />
+    </div>
+    <div class="container">
+      <form>
+        <div class="start">BILLING DETAILS</div>
+        <div class="name">
+          <div>
+            <div class="lab">First Name</div>
+            <input type="text" id="first-name" />
+            <div id="error-first-name" class="error"></div>
+          </div>
+          <div>
+            <div class="lab">Last Name</div>
+            <input type="text" id="last-name" />
+            <div id="error-last-name" class="error"></div>
+          </div>
+        </div>
+        <div class="lab">Email Address</div>
+        <input type="text" id="email-address" />
+        <div id="error-email-address" class="error"></div>
+        <div class="lab">Contact Number</div>
+        <input type="number" id="contact-number" />
+        <div id="error-contact-number" class="error"></div>
+        <div class="lab">PIN Code</div>
+        <input type="number" id="pin-code" />
+        <div id="error-pin-code" class="error"></div>
+        <div class="break">PAYMENT DETAILS</div>
+        <div class="lab">Card Number</div>
+        <input type="number" id="card-number" />
+        <div id="error-card-number" class="error"></div>
+        <div class="name">
+          <div>
+            <div class="lab">Card Expiry(Year)</div>
+            <input type="number" id="card-expiry" />
+            <div id="error-card-expiry" class="error"></div>
+          </div>
+          <div>
+            <div class="lab">CVV</div>
+            <input type="number" id="cvv" />
+            <div id="error-cvv" class="error"></div>
+          </div>
+        </div>
+        <button class="btn" type="submit" onclick="return validate()">
+          COMPLETE PAYMENT
+        </button>
+      </form>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
