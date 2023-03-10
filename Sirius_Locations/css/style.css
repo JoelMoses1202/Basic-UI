@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    background-color: #F5F5F5;
+}
+
+/* LOGO CONTAINER */
+
+.logo {
+    text-align: center;
+}
+.logo img{
+    margin-top: -10px;
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+}
+
+
+/* MAIN CONTAINER */
+.container{
+    width: 639px;
+    height: 539px;
+    margin:auto;
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 10px;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
+}
+
+
+/* ABOUT US BUTTON */
+.about-us{
+    width: 115px;
+    height: 35px;
+    left:560px;
+    top:171px;
+    position: absolute;
+    border-radius: 6%;
+    background-color: #000000;
+    color: white;
+    padding: 12px 22px;
+    font-size: 13px;
+    font-weight: 400;
+    
+}
+
+/* SOLUTION BUTTON */
+.solution{
+    width: 115px;
+    height: 35px;
+    left:690px;
+    top:171px;
+    position: absolute;
+    border-radius: 6%;
+    background-color: #000000;
+    color: white;
+    padding: 12px 22px;
+    font-size: 13px;
+    font-weight: 400;
+    
+}
+
+/* LOCATION BUTTON */
+.locations{
+    width: 115px;
+    height: 35px;
+    left:820px;
+    top:171px;
+    position: absolute;
+    border-radius: 6%;
+    background-color: #000000;
+    color: white;
+    padding: 12px 22px;
+    font-size: 13px;
+    font-weight: 400;
+    
+}
+
+/* IF BUTTON IS ACTIVE COLOR CHANGES */
+.active{
+    background-color: #001B71;
+}
+
+/* ABOUT US CONTAINER INITIALLY HIDDEN */
+.about-us-container{
+    display: none;
+}
+
+/* LOCATIONS CONTAINER INITIALLY HIDDEN */
+.locations-container{
+    display: none;
+}
+
+/* SOLUTIONS CONTAINER INITIALLY HIDDEN */
+.solution-container {
+display: none;
+height: 900px;
+}
+
+.solution-container h3{
+    background-color: rgb(131,142,182);
+    color: #fff;
+    border-color: rgb(131,142,182);
+}
+.solution-container div{
+    border-style: solid;
+    border-color: rgb(131,142,182);
+    border-width: 1px;
+    height: 200px;
+
+}
+
+/* WHEN CONTAINER IS ACTIVE IT IS NOT HIDDEN */
+.container-active{
+    display: flex;
+    flex-direction: column;
+}
+
+/* TABLE STYLE WITH BORDER COLLAPSE AND SPACING */
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0px 10px;
+    margin-top: -20px;
+
+}
+
+td{
+    padding:10px;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+/* TO ACHIEVE ALTERNATE COLORS FOR ROW */
+
+tr:nth-child(even)
+{
+    background-color: rgb(238,238,238);
+}
+tr:nth-child(odd)
+{
+    background-color: rgb(238,218,245);
+}
